@@ -6,32 +6,5 @@
 
 
 @media (orientation: portrait) {
-  .content {
-    max-width: 100vw;
-    padding-left: 3px;
-    padding-right: 3px;
-    grid-template-areas:
-    "blog";
-    grid-template-rows: 1fr;
-    grid-template-columns: 100%;
-    column-gap: .5rem;
-    row-gap: .25rem;
-  }
   
-  .blogEntry {
-    max-height: 75vh;
-  }
-}
-
-
-#blogContainer { 
-  box-sizing: border-box;
-  max-width: 100%;
-  color: #485158;
-  grid-area: blog;
-  display: flex;
-  flex-direction: column-reverse;
-  align-items: center;
-  text-align: center;
-  row-gap: 2em;
 }
