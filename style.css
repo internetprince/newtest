@@ -1,0 +1,115 @@
+/* colour refs
+#99CCFF (sky blue)
+#eff7fa (white blue)
+#eff3f8 (white steel blue)
+#F4F7FF (cloud box white)
+#6F8AB7 (medium blue gray)
+#33415C (med blue gray)
+#30638E (medium blue)
+#82929e (light blue gray)
+#74828c (light medium blue gray)
+
+*/
+
+/* img links
+bg cloud https://files.strawcdn.com/straw/kzECHHWqcxvnmCOxwdxX.gif
+bg http://theinspirationgallery.com/wallpaper/damask/images/wp_damask_187.gif
+banner https://files.strawcdn.com/straw/uMGvoTFQyevBPCbdCHxm.jpg
+art https://files.strawcdn.com/straw/bQmHxpJQhXEtkPNybydS.jpg
+(cloud border) https://files.strawcdn.com/straw/GSopLeHoZTFcNUlbaWAp.png
+(metal wave) https://files.strawcdn.com/straw/ORnymnhxeioNNTqrpmLS.png
+(bg) https://files.strawcdn.com/straw/IfVGunscnyXdghlDrHbm.gif
+*/
+
+/* backgrounds
+(blue white sparkle) https://files.strawcdn.com/straw/IUjjQCDtoJJwSGPCDHQY.gif
+*/
+
+/* buttons
+(powered by testosterone) https://files.strawcdn.com/straw/zFlEUqEUtgAFAKJkpNNZ.gif
+(made with affection) https://files.strawcdn.com/straw/UKBzIjMANNvdVlZWLrLl.gif
+(proud of my son) https://files.strawcdn.com/straw/FmPyRzsluFUbLtKvkxwA.gif
+(jesus kissed men) https://files.strawcdn.com/straw/FVuSBkGUQDXZTRZdPXck.png
+(i dream in html) https://files.strawcdn.com/straw/MQLwYceTzbZeutnQTNAI.gif
+
+
+my button https://files.strawcdn.com/straw/MNSPGDKSASCmjndeICHf.png
+*/
+ 
+/* style */
+
+html { 
+  background-image: url("https://files.strawcdn.com/straw/kzECHHWqcxvnmCOxwdxX.gif");
+  background-repeat: repeat, repeat;
+  background-color: #94C6DE;
+  color: white;
+  font-size: 1em;
+  font-family: "Balsamiq Sans", monospace;
+}
+
+body { 
+  font-size: 1em;
+  font-family: "Balsamiq Sans", monospace;
+  margin: 0;
+}
+
+h2 {
+  font-family: "Margarine", sans-serif;
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.content { 
+  box-sizing: border-box;
+  display: grid;
+  width: 100%;
+  max-width: 100vw;
+  background-color: transparent;
+}
+
+.cloudContainer { 
+  box-sizing: border-box;
+  border-image-slice: 9.5 fill;
+  border-image-width: 10px;
+  border-image-outset: 1px;
+  border-image-repeat: round;
+  border-image-source: url("https://files.strawcdn.com/straw/kjDHZMgeLBJZmkQswyiy.png");
+  border-style: solid;
+  border-top-width: 8px;
+  border-left-width: 8px;
+  border-right-width: 8px;
+  border-bottom-width: 8px;
+  padding: 5px;
+}
+
+.cloudContainer p {
+  background-color: #F2F2F3;
+}
+
+.metalContainer {
+  box-sizing: border-box;
+}
+
+.containButtonStyle { 
+  box-sizing: border-box;
+  background-color: fuchsia;
+  flex-flow: row wrap;
+  max-width:100%;
+}
+
+
+.buttonStyle {
+  width: 88px;
+  height: 31px;
+  background-color: white;
+}
+
+.stampStyle { 
+  width: 99px;
+  height: 56px;
+}
+
+.textArt {
+  font-size: 2px;
+
+}
