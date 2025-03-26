@@ -1,0 +1,303 @@
+@media (orientation: landscape) {
+  .content {
+    grid-template-areas:
+    "banner banner banner"
+    "personal welcome nav"
+    "personal welcome nav"
+    "widget widget widget";
+    grid-template-rows: min-content min-content min-content min-content;
+    grid-template-columns: 1fr 2fr max-content;
+    column-gap: .5rem;
+    row-gap: .25rem;
+  }
+  
+  #widget {
+    max-width: 100vw;
+    grid-template-areas:
+    "stamps stamps todo"
+    "chat chat todo";
+    grid-template-rows: min-content min-content;
+    grid-template-columns: min-content 1fr min-content;
+    column-gap: .5rem;
+    row-gap: .25rem;
+  }
+  
+  #profileImage {
+  }
+  
+  #cboxPortrait {
+    display: none;
+  }
+  
+  
+  #cboxLandscape {
+    display: block;
+    box-sizing: border-box;
+  }
+
+}
+ 
+
+
+@media (orientation: portrait) {
+  .content {
+    grid-template-areas:
+    "banner banner banner"
+    "personal welcome welcome"
+    "nav welcome welcome"
+    "widget widget widget";
+    grid-template-rows: min-content min-content min-content min-content;
+    grid-template-columns: max-content 1fr 1fr;
+    column-gap: .5rem;
+    row-gap: .25rem;
+  }
+  
+  #widget {
+    max-width: 100vw;
+    grid-template-areas:
+    "stamps stamps stamps"
+    "chat todo todo";
+    grid-template-rows: min-content min-content;
+    grid-template-columns: min-content 1fr min-content;
+    column-gap: .5rem;
+    row-gap: .25rem;
+  }
+  
+  #profileImage {
+    width: 75%;
+  }
+  
+  #personalContainer, #navigationContainer, #chatContainer, #stampContainer {
+    margin-left: 3px;
+  }
+  
+  #welcomeContainer, #stampContainer {
+    margin-right: 3px;
+  }
+  
+  #cboxPortrait {
+    display: block;
+  }
+  
+  #cboxLandscape {
+    display: none;
+    box-sizing: border-box;
+  }
+}
+
+p {
+  background-color: #F2F2F3;
+  font-family: "Balsamiq Sans", sans-serif;
+}
+
+#siteBanner { 
+  background-size: cover;
+  background-color: navy;
+  background-clip: content-box;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100vw;
+  font-family: "Honk", serif;
+  grid-area: banner;
+  text-align: center;
+}
+
+#personalContainer { 
+  color: #485158;
+  box-sizing: border-box;
+  grid-area: personal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#personalTitle {
+  margin: 0;
+  font-size: 1.25em;
+}
+
+#profileImage { 
+  aspect-ratio: 1/1;
+  box-sizing: border-box;
+}
+
+#githubImage {
+  box-sizing: border-box;
+  aspect-ratio: 1/1;
+  width: 2em;
+  max-width: 48px;
+}
+
+#navigationContainer { 
+  color: #485158;
+  box-sizing: border-box;
+  grid-area: nav;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#navigationContainer details {
+  text-align: left;
+  font-family: "Itim", monospace;
+  
+}
+  
+#welcomeContainer { 
+  color: #485158;
+  grid-area: welcome;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#welcomeContainer p {
+  margin-top: .75em;
+  margin-bottom: .75em;
+}
+
+#widget {
+  width: 100%;
+  max-width: 100%;
+  grid-area: widget;
+  display: grid;
+  box-sizing: border-box;
+}
+
+#mybuttonContainer { 
+  color: #485158;
+  grid-area: button;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family:"Schoolbell";
+  max-height: 70px;
+}
+
+#mybuttonContainer p {
+  margin: 0;
+  font-size: .9rem;
+  position: fixed;
+  top: 0;
+}
+
+#chatContainer {
+  color: #485158;
+  grid-area: chat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  
+}
+
+#chatTitle {
+  margin: 0;
+  font-size: 1.15em;
+}
+
+#cboxPortrait {
+  display: initial;
+  box-sizing: border-box;
+  
+}
+
+#cboxLandscape {
+  display: none;
+  box-sizing: border-box;
+}
+
+#stampContainer { 
+  box-sizing: border-box;
+  background-color: blue;
+  background-image: url("https://files.strawcdn.com/straw/SSsbJJYdEyWTOKfMvsDA.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  grid-area: stamps;
+  max-height: 80px;
+  overflow: hidden;
+}
+
+#scrollContainer {
+  display: flex;
+  flex-direction: row;
+  column-gap: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+#scrollContainer img {
+  animation: 20s linear infinite normal both scroll-left;
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(200%);
+    }
+
+    100% {
+        transform: translateX(-700%);
+    }
+}
+
+@keyframes scroll-right {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+.stampStyle {
+}
+
+#bio {
+  margin: 0;
+}
+
+#todoContainer { 
+  box-sizing: border-box;
+  color: #485158;
+  grid-area: todo;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#todoList {
+  box-sizing: border-box;
+  border: 2px solid black;
+  text-align: center;
+  align-items: center;
+  font-family: monospace;
+  width: 100%;
+}
+
+#todoList p {
+  box-sizing: border-box;
+  border-bottom: 2px solid black;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+}
+
+#updateContainer { 
+  box-sizing: border-box;
+  color: #485158;
+  grid-area: todo;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
