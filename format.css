@@ -8,3 +8,11 @@
 @media (orientation: portrait) {
   
 }
+
+
+html { 
+  background-color: #94C6DE;
+  color: white;
+  font-size: 1em;
+  font-family: "Balsamiq Sans", monospace;
+}
