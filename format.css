@@ -43,7 +43,8 @@ html {
 }
 
 .silverFooter {
-  
+  object-fit: fill;
+  max-height: 17px;
 }
   
   
