@@ -42,6 +42,10 @@ html {
     row-gap: .25rem;
   }
   
+.buttonhead {
+  background-image: url("https://files.strawcdn.com/straw/YaRckxhBChrqXGYItSrE.png");
+}
+  
 .nav {
   grid-area: nav;
 }
