@@ -21,6 +21,7 @@
 html { 
   background-color: #94C6DE;
   background-image: url("https://files.strawcdn.com/straw/MDaULuZfNOqFNUQdeaYu.png");
+  background-repeat: no-repeat;
   background-size: cover;
   color: white;
   font-size: 1em;
