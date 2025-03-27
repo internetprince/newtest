@@ -47,5 +47,10 @@ html {
   max-height: 17px;
   margin: 0;
 }
-  
+
+.whiteFooter {
+  object-fit: fill;
+  max-height: 14px;
+  margin: 0;
+}
   
