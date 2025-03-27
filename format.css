@@ -38,6 +38,10 @@ html {
     row-gap: .25rem;
   }
   
+.nav {
+  grid-area: nav;
+}
+  
 .navIcon {
   width: 37px;
   height: 47px;
