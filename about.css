@@ -60,10 +60,8 @@ html {
   top: 0;
   bottom: 0;
   margin: auto;
-  height: 4rem;
-  background-color: white;
+  background-color: transparent;
   border: none;
-  width: 2rem;
   font-size: 3rem;
   padding: 0;
   cursor: pointer;
@@ -73,13 +71,9 @@ html {
 
 #lastPageButton {
   left: 0;
-  padding-left: 0.25rem;
-  border-radius: 0 2rem 2rem 0;
 }
 #nextPageButton {
   right: 0;
-  padding-left: 0.75rem;
-  border-radius: 2rem 0 0 2rem;
 }
 
 
