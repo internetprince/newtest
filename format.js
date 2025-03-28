@@ -7,3 +7,8 @@ const nextButton = document.getElementById("nextPageButton");
 function funcctionName () {
     // What to do
 }
+
+nextButton.addEventListener("click", (event) => {
+  const pageWidth = page.clientWidth;
+    pageContainer.scrollLeft += pageWidth;
+});
