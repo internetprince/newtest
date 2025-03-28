@@ -38,6 +38,16 @@ html {
   overflow: hidden;
 }
 
+#pageContainer {
+  height: calc(100vh - 2rem);
+  width: 100%;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
 .mainGrid {
     max-width: 100vw;
     grid-template-areas:
