@@ -48,6 +48,12 @@ html {
   overflow: hidden;
 }
 
+.page {
+  width: 100%;
+  height: 100%;
+  flex: 1 0 100%;
+}
+
 .mainGrid {
     max-width: 100vw;
     grid-template-areas:
