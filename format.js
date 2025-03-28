@@ -12,3 +12,8 @@ nextButton.addEventListener("click", (event) => {
   const pageWidth = page.clientWidth;
     pageContainer.scrollLeft += pageWidth;
 });
+
+lastButton.addEventListener("click", () => {
+  const pageWidth = page.clientWidth;
+  pageContainer.scrollLeft -= pageWidth;
+});
