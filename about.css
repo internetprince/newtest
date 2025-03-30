@@ -91,6 +91,7 @@ html {
 .mainGrid {
     box-sizing: border-box;
     max-width: 100vw;
+    display: grid;
     grid-template-areas:
     "";
     grid-template-rows: 1fr;
