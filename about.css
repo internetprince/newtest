@@ -43,10 +43,9 @@ html {
 }
 
 #pageContainer {
-  height: calc(100vh - 2rem);
+  height: 100%;
   width: 100%;
   display: flex;
-  list-style: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
