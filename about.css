@@ -66,16 +66,7 @@ html {
   display: flex;
   width: 37px;
   height: 47px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: transparent;
-  top: 0;
-  bottom: 0;
-  margin: auto;
   border: none;
-  font-size: 3rem;
-  padding: 0;
 }
 
 #lastPageButton {
