@@ -91,7 +91,6 @@ body {
 
 .pageButton {
   box-sizing: border-box;
-  border: 2px dotted black;
   position: absolute;
   background-color: transparent;
   width: 37px;
