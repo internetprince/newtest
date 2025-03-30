@@ -69,7 +69,6 @@ html {
 .pageButton {
   box-sizing: border-box;
   position: absolute;
-  display: flex;
   width: 37px;
   height: 47px;
   border: none;
