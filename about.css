@@ -62,6 +62,8 @@ html {
 .pageButton {
   position: absolute;
   display: flex;
+  width: 37px;
+  height: 47px;
   top: 0;
   bottom: 0;
   margin: auto;
