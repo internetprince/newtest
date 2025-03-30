@@ -36,6 +36,14 @@ html {
   grid-area: about;
 }
 
+#lastPageImage {
+  
+}
+
+#nextPageImage {
+  
+}
+
 .pageWrapper {
   margin: 1rem;
   height: 100%;
