@@ -33,8 +33,7 @@ html {
 }
 
 #aboutContainer {
-  
-  
+  grid-area: about;
 }
 
 .pageWrapper {
@@ -100,10 +99,6 @@ html {
 .navIcon {
   width: 37px;
   height: 47px;
-}
-
-.about {
-  grid-area: about;
 }
 
 .silverFooter {
