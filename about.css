@@ -82,18 +82,10 @@ html {
   left: 0;
 }
 
-#lastPageButton:active {
-  background-image: url("https://file.garden/Z9NesCn881IguicE/greyleftarrow.png");
-}
 
 #nextPageButton {
   right: 0;
 }
-
-#nextPageButton:active {
-  background-image: url("https://file.garden/Z9NesCn881IguicE/greyrightarrow.png");
-}
-
 
 .mainGrid {
     max-width: 100vw;
