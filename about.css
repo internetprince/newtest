@@ -36,6 +36,7 @@ html {
   box-sizing: border-box;
   grid-area: about;
   background-color: white;
+  color: black;
   padding: 2em;
 }
 
