@@ -72,6 +72,11 @@ html {
   width: 37px;
   height: 47px;
   border: none;
+  display: flex;
+}
+
+.pageButtonImage {
+  flex: 1;
 }
 
 #lastPageButton {
