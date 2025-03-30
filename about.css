@@ -47,7 +47,7 @@ html {
   position: relative;
 }
 
-#pageContainer {
+.pageContainer {
   box-sizing: border-box;
   height: 100%;
   width: 100%;
