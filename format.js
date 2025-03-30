@@ -9,7 +9,7 @@ function funcctionName () {
 }
 
 nextButton.addEventListener("click", (event) => {
-  const pageWidth = page.clientWidth;
+    const pageWidth = page.clientWidth;
     pageContainer.scrollLeft += pageWidth;
 });
 
