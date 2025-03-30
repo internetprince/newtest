@@ -42,9 +42,8 @@ html {
 
 .pageWrapper {
   box-sizing: border-box;
-  margin: 1rem;
+  margin: auto;
   height: 100%;
-  width: 100%;
 }
 
 .pageContainer {
