@@ -99,17 +99,21 @@ body {
   display: flex;
 }
 
-.pageButtonImage {
-  flex: 1;
-}
-
 #lastPageButton {
   left: 0;
+  top: 0;
+  bottom: 0;
 }
 
 
 #nextPageButton {
   right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.pageButtonImage {
+  flex: 1;
 }
 
 .buttonhead {
