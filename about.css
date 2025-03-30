@@ -64,7 +64,7 @@ body {
   height: 300px;
   width: 300px;
   background-color: hotpink;
-  position: static;
+  position: relative;
 }
 
 .pageContainer {
