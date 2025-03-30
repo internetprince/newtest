@@ -78,7 +78,7 @@ html {
 
 #lastPageButton {
   left: 0;
-  background-image: url("");
+  background-image: url("https://file.garden/Z9NesCn881IguicE/blueleftarrow.png");
 }
 
 #lastPageButton:active {
@@ -87,7 +87,7 @@ html {
 
 #nextPageButton {
   right: 0;
-  background-image: url("");
+  background-image: url("https://file.garden/Z9NesCn881IguicE/bluerightarrow.png");
 }
 
 #nextPageButton:active {
