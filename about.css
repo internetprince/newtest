@@ -78,9 +78,20 @@ html {
 
 #lastPageButton {
   left: 0;
+  background-image: url("");
 }
+
+#lastPageButton:active {
+  background-image: url("");
+}
+
 #nextPageButton {
   right: 0;
+  background-image: url("");
+}
+
+#nextPageButton:active {
+  background-image: url("");
 }
 
 
