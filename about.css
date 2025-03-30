@@ -35,6 +35,7 @@ html {
 #aboutContainer {
   grid-area: about;
   background-color: white;
+  padding: 2em;
 }
 
 #lastPageImage {
