@@ -14,7 +14,7 @@
     grid-template-rows: 1fr min-content;
     grid-template-columns: 2fr 1fr 1fr;
     column-gap: .5rem;
-    row-gap: .25rem;
+    row-gap: 0rem;
   }
 }
 
@@ -46,7 +46,7 @@ body {
   grid-template-rows: 1fr min-content;
   grid-template-columns: 2fr 1fr 1fr;
   column-gap: .5rem;
-  row-gap: .25rem;
+  row-gap: 0rem;
 }
 
 #aboutContainer {
