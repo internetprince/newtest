@@ -101,14 +101,14 @@ body {
 }
 
 #lastPageButton {
-  left: -18;
+  left: -18px;
   top: 0;
   bottom: 0;
 }
 
 
 #nextPageButton {
-  right: -18;
+  right: -18px;
   top: 0;
   bottom: 0;
 }
