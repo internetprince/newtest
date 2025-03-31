@@ -56,7 +56,8 @@ body {
   grid-area: about;
   background-color: white;
   color: black;
-  padding: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
   position: static;
 }
 
@@ -136,7 +137,6 @@ body {
   grid-area: top;
   background-color: grey;
   color: black;
-  padding: 2em;
   position: static;
 }
 
