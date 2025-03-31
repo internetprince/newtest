@@ -110,15 +110,15 @@ body {
 
 #lastPageButton {
   left: -18px;
-  top: 0;
-  bottom: 0;
+  top: 0px;
+  bottom: 0px;
 }
 
 
 #nextPageButton {
   right: -18px;
-  top: 0;
-  bottom: 0;
+  top: 0px;
+  bottom: 0px;
 }
 
 .pageButtonImage {
