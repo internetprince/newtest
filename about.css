@@ -69,7 +69,7 @@ body {
   margin: 0em;
 }
 
-.pageWrapper {
+#pageWrapper {
   box-sizing: border-box;
   margin: auto;
   height: 300px;
@@ -78,7 +78,7 @@ body {
   position: relative;
 }
 
-.pageContainer {
+#pageContainer {
   box-sizing: border-box;
   height: 100%;
   width: 100%;
