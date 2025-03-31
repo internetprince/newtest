@@ -148,7 +148,7 @@ body {
   margin: 0em;
 }
 
-.basicContainer {
+#basicContainer {
   flex-direction: row;
   flex-wrap: wrap;
   
