@@ -9,7 +9,7 @@
   .mainGrid {
     max-width: 100vw;
     grid-template-areas:
-    "top top ."
+    "top top top"
     "about . .";
     grid-template-rows: 1fr min-content;
     grid-template-columns: 2fr 1fr 1fr;
@@ -40,7 +40,7 @@ body {
   max-width: 100vw;
   display: grid;
   grid-template-areas:
-  "top top ."
+  "top top top"
   "about . .";
   position: static;
   grid-template-rows: 1fr min-content;
