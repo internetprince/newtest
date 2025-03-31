@@ -40,10 +40,11 @@ body {
   max-width: 100vw;
   display: grid;
   grid-template-areas:
+  "top top ."
   "about . .";
   position: static;
-  grid-template-rows: min-content;
-  grid-template-columns: 3fr 1fr 1fr;
+  grid-template-rows: 1fr min-content;
+  grid-template-columns: 2fr 1fr 1fr;
   column-gap: .5rem;
   row-gap: .25rem;
 }
