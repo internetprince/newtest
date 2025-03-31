@@ -56,8 +56,8 @@ body {
   grid-area: about;
   background-color: white;
   color: black;
-  padding-left: 1em;
-  padding-right: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
   position: static;
 }
 
