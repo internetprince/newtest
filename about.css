@@ -148,6 +148,12 @@ body {
   margin: 0em;
 }
 
+.basicContainer {
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+
 .buttonhead {
   background-image: url("https://files.strawcdn.com/straw/YaRckxhBChrqXGYItSrE.png");
 }
