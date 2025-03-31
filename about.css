@@ -125,6 +125,19 @@ body {
   flex: 1;
 }
 
+
+
+#topContainer {
+  box-sizing: border-box;
+  max-width: 100%;
+  max-height: 100%;
+  grid-area: top;
+  background-color: grey;
+  color: black;
+  padding: 2em;
+  position: static;
+}
+
 .buttonhead {
   background-image: url("https://files.strawcdn.com/straw/YaRckxhBChrqXGYItSrE.png");
 }
