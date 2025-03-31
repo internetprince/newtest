@@ -97,6 +97,7 @@ body {
   height: 47px;
   display: flex;
   padding: 0;
+  border: 0;
 }
 
 #lastPageButton {
