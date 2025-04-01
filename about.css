@@ -129,7 +129,6 @@ body {
 }
 
 
-
 #topContainer {
   box-sizing: border-box;
   max-width: 100%;
@@ -153,12 +152,17 @@ body {
   max-width: 100%;
   display: grid;
   grid-template-areas:
-  ".";
+  "pfp";
   position: static;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr;
   column-gap: .5rem;
   row-gap: 0rem;
+}
+
+#profileImage {
+  box-sizing: border-box;
+  grid-area: pfp;
 }
 
 .buttonhead {
