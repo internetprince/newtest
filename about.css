@@ -74,6 +74,7 @@
   }
 }
 
+/* DEFAULT */
 
 html { 
   background-color: #94C6DE;
@@ -104,6 +105,8 @@ body {
   column-gap: .5rem;
   row-gap: 0rem;
 }
+
+/* main container */
 
 #aboutContainer {
   box-sizing: border-box;
@@ -186,6 +189,7 @@ body {
   flex: 1;
 }
 
+/* top container */
 
 #topContainer {
   box-sizing: border-box;
