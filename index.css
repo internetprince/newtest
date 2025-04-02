@@ -124,13 +124,6 @@ p {
   box-sizing: border-box;
 }
 
-#githubImage {
-  box-sizing: border-box;
-  aspect-ratio: 1/1;
-  width: 2em;
-  max-width: 48px;
-}
-
 #navigationContainer { 
   color: #485158;
   box-sizing: border-box;
@@ -236,6 +229,16 @@ p {
 #siteHostContainer {
   
 }
+
+
+#githubImage {
+  box-sizing: border-box;
+  aspect-ratio: 1/1;
+  width: 2em;
+  max-width: 48px;
+}
+
+/* MISC */
 
 .stampStyle {
 }
