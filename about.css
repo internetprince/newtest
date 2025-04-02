@@ -25,10 +25,11 @@
     max-width: 100%;
     display: grid;
     grid-template-areas:
-    "pfp";
+    "pfp title"
+    "pfp .";
     position: static;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: min-content 1fr;
     column-gap: .5rem;
     row-gap: 0rem;
   }
@@ -63,9 +64,10 @@
     max-width: 100%;
     display: grid;
     grid-template-areas:
+    "title"
     "pfp";
     position: static;
-    grid-template-rows: 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr;
     column-gap: .5rem;
     row-gap: 0rem;
@@ -219,6 +221,11 @@ body {
 #profileImage {
   box-sizing: border-box;
   grid-area: pfp;
+}
+
+#profileTitle {
+  box-sizing: border-box;
+  grid-area: title;
 }
 
 .buttonhead {
