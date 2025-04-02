@@ -35,6 +35,19 @@
     color: black;
     position: static;
   }
+  
+  #topBox {
+    box-sizing: border-box;
+    max-width: 100%;
+    display: grid;
+    grid-template-areas:
+    "pfp";
+    position: static;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    column-gap: .5rem;
+    row-gap: 0rem;
+  }
 }
 
 
