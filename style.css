@@ -92,6 +92,10 @@ h2 {
 
 .metalContainer {
   box-sizing: border-box;
+  border-image-slice: 35 35 35 35 fill;
+  border-image-width: 10px 10px 10px 10px;
+  border-image-outset: 0px;
+  border-image-repeat: stretch stretch;
 }
 
 .containButtonStyle { 
