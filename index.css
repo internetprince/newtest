@@ -3,9 +3,8 @@
     grid-template-areas:
     "banner banner banner"
     "personal welcome nav"
-    "personal welcome nav"
-    "widget widget widget";
-    grid-template-rows: min-content min-content min-content min-content;
+    "personal welcome nav";
+    grid-template-rows: min-content min-content min-content;
     grid-template-columns: 1fr 2fr max-content;
     column-gap: .5rem;
     row-gap: .25rem;
@@ -44,9 +43,8 @@
     grid-template-areas:
     "banner banner banner"
     "personal welcome welcome"
-    "nav welcome welcome"
-    "widget widget widget";
-    grid-template-rows: min-content min-content min-content min-content;
+    "nav welcome welcome";
+    grid-template-rows: min-content min-content min-content;
     grid-template-columns: max-content 1fr 1fr;
     column-gap: .5rem;
     row-gap: .25rem;
