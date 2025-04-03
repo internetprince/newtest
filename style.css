@@ -78,6 +78,17 @@ my button https://files.strawcdn.com/straw/MNSPGDKSASCmjndeICHf.png
   url("https://file.garden/Z9NesCn881IguicE/GenericTechno.ttf") format("truetype"),
   url("https://file.garden/Z9NesCn881IguicE/GenericTechno.otf") format("opentype");
 }
+
+@font-face {
+  font-family: "F1.8";
+  font-style: normal;
+  font-weight: normal;
+  src:
+  url("https://file.garden/Z9NesCn881IguicE/F1.8-Regular.woff2") format("woff2"),
+  url("https://file.garden/Z9NesCn881IguicE/F1.8-Regular.woff") format("woff"),
+  url("https://file.garden/Z9NesCn881IguicE/F1.8-Regular.ttf") format("truetype"),
+  url("https://file.garden/Z9NesCn881IguicE/F1.8-Regular.otf") format("opentype");
+}
  
 /* style */
 
