@@ -57,6 +57,14 @@ my button https://files.strawcdn.com/straw/MNSPGDKSASCmjndeICHf.png
   url("https://file.garden/Z9NesCn881IguicE/NUKLEAR.ttf") format("truetype"),
   url("https://file.garden/Z9NesCn881IguicE/NUKLEAR.otf") format("opentype");
 }
+
+@font-face {
+  font-family: "Jiki Tourai";
+  font-style: normal;
+  font-weight: normal;
+  src:
+  url("https://file.garden/Z9NesCn881IguicE/JikiTourai.ttf") format("truetype");
+}
  
 /* style */
 
