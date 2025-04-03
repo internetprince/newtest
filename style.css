@@ -113,6 +113,7 @@ h2 {
   border-image-outset: 0px;
   border-image-repeat: stretch stretch;
   border-image-source: url("https://file.garden/Z9NesCn881IguicE/metaltest3.png");
+  padding: 3px;
 }
 
 .containButtonStyle { 
