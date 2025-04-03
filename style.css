@@ -39,11 +39,11 @@ my button https://files.strawcdn.com/straw/MNSPGDKSASCmjndeICHf.png
 /* fonts */
 
 @font-face {
-  font-family: "";
+  font-family: "Tecnica 55";
   font-style: normal;
-  font-weight: 0;
+  font-weight: normal;
   src:
-  url("") format(""),
+  url("https://file.garden/Z9NesCn881IguicE/Tecnica-55.woff2") format("woff2"),
   url("") format("");
   
 }
