@@ -63,7 +63,7 @@ my button https://files.strawcdn.com/straw/MNSPGDKSASCmjndeICHf.png
   font-style: normal;
   font-weight: normal;
   src:
-  url("https://file.garden/Z9NesCn881IguicE/JikiTourai.woff2" format("woff2"),
+  url("https://file.garden/Z9NesCn881IguicE/JikiTourai.woff2") format("woff2"),
   url("https://file.garden/Z9NesCn881IguicE/JikiTourai.woff") format("woff"),
   url("https://file.garden/Z9NesCn881IguicE/JikiTourai.ttf") format("truetype");
 }
