@@ -45,9 +45,16 @@ my button https://files.strawcdn.com/straw/MNSPGDKSASCmjndeICHf.png
   src:
   url("https://file.garden/Z9NesCn881IguicE/Tecnica-55.woff2") format("woff2"),
   url("https://file.garden/Z9NesCn881IguicE/Tecnica-55.woff") format("woff"),
-  url("https://file.garden/Z9NesCn881IguicE/Tecnica-55.otf") format("opentype"),
-  url("https://file.garden/Z9NesCn881IguicE/Tecnica-55.ttf") format("truetype");
-  
+  url("https://file.garden/Z9NesCn881IguicE/Tecnica-55.ttf") format("truetype"),
+  url("https://file.garden/Z9NesCn881IguicE/Tecnica-55.otf") format("opentype");
+}
+
+@font-face {
+  font-family "Nuklear";
+  font-style: normal;
+  font-weight: normal;
+  src:
+  url( ) format ( );
 }
  
 /* style */
