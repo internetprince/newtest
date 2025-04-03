@@ -177,6 +177,15 @@ body {
   top: 0px;
   bottom: 0px;
   background-image: url("https://file.garden/Z9NesCn881IguicE/blueleftarrow.png");
+  transition: background-image .75s;
+}
+
+#lastPageButton:hover {
+  background-image: url("https://file.garden/Z9NesCn881IguicE/greyleftarrow.png");
+}
+
+#lastPageButton:active {
+  background-image: url("https://file.garden/Z9NesCn881IguicE/greyleftarrow.png");
 }
 
 
@@ -185,6 +194,15 @@ body {
   top: 0px;
   bottom: 0px;
   background-image: url("https://file.garden/Z9NesCn881IguicE/bluerightarrow.png");
+  transition: background-image .75s;
+}
+
+#nextPageButton:hover {
+  background-image: url("https://file.garden/Z9NesCn881IguicE/greyrightarrow.png");
+}
+
+#nextPageButton:active {
+  background-image: url("https://file.garden/Z9NesCn881IguicE/greyrightarrow.png");
 }
 
 /* top container */
