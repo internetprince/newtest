@@ -143,7 +143,7 @@ body {
   width: 100%;
   border: 2px solid blue;
   display: flex;
-  overflow: scroll;
+  overflow-x: scroll;
   list-style: none;
   background-color: purple;
   position: static;
