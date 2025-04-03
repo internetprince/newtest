@@ -35,6 +35,18 @@ art https://files.strawcdn.com/straw/bQmHxpJQhXEtkPNybydS.jpg
 
 my button https://files.strawcdn.com/straw/MNSPGDKSASCmjndeICHf.png
 */
+
+/* fonts */
+
+@font-face {
+  font-family: "";
+  font-style: normal;
+  font-weight: 0;
+  src:
+  url("") format(""),
+  url("") format("");
+  
+}
  
 /* style */
 
