@@ -164,10 +164,10 @@ body {
 .pageButton {
   box-sizing: border-box;
   position: absolute;
+  background-size: contain;
   background-color: transparent;
   width: 37px;
   height: 47px;
-  display: flex;
   padding: 0;
   border: 0;
 }
@@ -176,6 +176,7 @@ body {
   left: -23px;
   top: 0px;
   bottom: 0px;
+  background-image: url("");
 }
 
 
@@ -183,10 +184,7 @@ body {
   right: -23px;
   top: 0px;
   bottom: 0px;
-}
-
-.pageButtonImage {
-  flex: 1;
+  background-image: url("");
 }
 
 /* top container */
