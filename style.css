@@ -99,6 +99,22 @@ my button https://files.strawcdn.com/straw/MNSPGDKSASCmjndeICHf.png
   url("https://file.garden/Z9NesCn881IguicE/AVA.woff") format("woff"),
   url("https://file.garden/Z9NesCn881IguicE/AVA.ttf") format("truetype");
 }
+
+@font-face {
+  font-family: "Syntha Nova";
+  font-style: normal;
+  font-weight: black;
+  src:
+  url("") format("");
+}
+
+@font-face {
+  font-family: "Syntha Nova";
+  font-style: normal;
+  font-weight: normal;
+  src:
+  url("") format("");
+}
  
 /* style */
 
