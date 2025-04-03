@@ -54,7 +54,8 @@ my button https://files.strawcdn.com/straw/MNSPGDKSASCmjndeICHf.png
   font-style: normal;
   font-weight: normal;
   src:
-  url( ) format ( );
+  url("https://file.garden/Z9NesCn881IguicE/NUKLEAR.ttf") format("truetype"),
+  url("https://file.garden/Z9NesCn881IguicE/NUKLEAR.otf") format("opentype");
 }
  
 /* style */
