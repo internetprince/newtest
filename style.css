@@ -110,7 +110,7 @@ h2 {
 
 .testContainerTwo {
   box-sizing: border-box;
-  border-image-slice: 26 26 26 26 fill;
+  border-image-slice: 30 30 30 30 fill;
   border-image-width: 7px 7px 7px 7px;
   border-image-outset: 0px;
   border-image-repeat: stretch stretch;
