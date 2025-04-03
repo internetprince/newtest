@@ -99,6 +99,11 @@ h2 {
   border-image-source: url("https://file.garden/Z9NesCn881IguicE/metaltest.png");
 }
 
+.testContainer {
+  box-sizing: border-box;
+  border-image-source: url("https://file.garden/Z9NesCn881IguicE/metaltest2.png");
+}
+
 .containButtonStyle { 
   box-sizing: border-box;
   background-color: fuchsia;
