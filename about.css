@@ -164,7 +164,7 @@ body {
 .pageButton {
   box-sizing: border-box;
   position: absolute;
-  background-size: contain;
+  background-size: 37px 47px;
   background-color: transparent;
   width: 37px;
   height: 47px;
