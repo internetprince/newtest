@@ -3,8 +3,9 @@
     grid-template-areas:
     "banner banner banner"
     "personal welcome nav"
-    "personal welcome host";
-    grid-template-rows: min-content min-content min-content;
+    "personal welcome host"
+    "history history .";
+    grid-template-rows: min-content min-content min-content min-content;
     grid-template-columns: 1fr 2fr max-content;
     column-gap: .5rem;
     row-gap: 20px;
