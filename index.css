@@ -104,6 +104,11 @@ p {
   
 }
 
+#siteHistoryContainer {
+  box-sizing: border-box;
+  grid-area: history;
+}
+
 #siteHostContainer {
   color: #485158;
   box-sizing: border-box;
