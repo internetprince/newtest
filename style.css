@@ -108,7 +108,9 @@ h2 {
 }
 
 .testBorderOne {
+  box-sizing: border-box;
   background-image: url("https://file.garden/Z9NesCn881IguicE/testborder1.jpeg");
+  background-size: 50px 26px;
 }
 
 .containButtonStyle { 
