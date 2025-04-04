@@ -120,7 +120,8 @@ h2 {
 .testBorderTwo {
   box-sizing: border-box;
   background-image: url("https://file.garden/Z9NesCn881IguicE/testborder2.png");
-  background-size: 100% 30px;
+  background-size: contain;
+  background-repeat: repeat-x;
   width: 100%;
   height: 30px;
   position: absolute;
