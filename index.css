@@ -1,5 +1,5 @@
 @media (orientation: landscape) {
-  .content {
+  .contentGrid {
     grid-template-areas:
     "banner banner banner"
     "personal welcome nav"
@@ -16,7 +16,7 @@
 
 
 @media (orientation: portrait) {
-  .content {
+  .contentGrid {
     grid-template-areas:
     "banner banner banner"
     "personal welcome welcome"
@@ -36,7 +36,7 @@ p {
   font-family: "F1.8", sans-serif;
 }
 
-.content { 
+.contentGrid { 
   box-sizing: border-box;
   display: grid;
   width: 100%;
