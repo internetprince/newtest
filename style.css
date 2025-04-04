@@ -107,6 +107,10 @@ h2 {
   padding: 3px;
 }
 
+.testBorderOne {
+  background-image: url("https://file.garden/Z9NesCn881IguicE/testborder1.jpeg");
+}
+
 .containButtonStyle { 
   box-sizing: border-box;
   background-color: fuchsia;
