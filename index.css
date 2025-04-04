@@ -26,6 +26,8 @@
     grid-template-columns: max-content 1fr 1fr;
     column-gap: 25px;
     row-gap: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
   }
 
 }
