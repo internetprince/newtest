@@ -65,6 +65,7 @@ p {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  position: relative;
 }
 
 #personalTitle {
@@ -85,6 +86,7 @@ p {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  position: relative;
 }
 
 #navigationContainer details {
@@ -101,6 +103,7 @@ p {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  position: relative;
 }
 
 #siteInfoContainer {
@@ -111,6 +114,7 @@ p {
 #siteHistoryContainer {
   box-sizing: border-box;
   grid-area: history;
+  position: relative;
 }
 
 #siteHostContainer {
@@ -121,6 +125,7 @@ p {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  position: relative;
 }
 
 
