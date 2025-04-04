@@ -23,7 +23,7 @@
     grid-template-rows: min-content min-content min-content;
     grid-template-columns: max-content 1fr 1fr;
     column-gap: .5rem;
-    row-gap: .25rem;
+    row-gap: 20px;
   }
 
 }
