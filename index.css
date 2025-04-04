@@ -7,8 +7,8 @@
     "history history .";
     grid-template-rows: min-content min-content min-content min-content;
     grid-template-columns: 1fr 2fr max-content;
-    column-gap: .5rem;
-    row-gap: 20px;
+    column-gap: 25px;
+    row-gap: 25px;
   }
 
 }
@@ -24,8 +24,8 @@
     "nav history .";
     grid-template-rows: min-content min-content min-content min-content;
     grid-template-columns: max-content 1fr 1fr;
-    column-gap: .5rem;
-    row-gap: 20px;
+    column-gap: 25px;
+    row-gap: 25px;
   }
 
 }
