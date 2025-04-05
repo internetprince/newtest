@@ -74,5 +74,7 @@
   font-style: normal;
   font-weight: normal;
   src:
+  url("https://file.garden/Z9NesCn881IguicE/Syntha%20Nova.woff2") format("woff2"),
+  url("https://file.garden/Z9NesCn881IguicE/Syntha%20Nova.woff") format("woff"),
   url("https://file.garden/Z9NesCn881IguicE/Syntha%20Nova.otf") format("opentype");
 }
