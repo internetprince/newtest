@@ -156,6 +156,10 @@ p {
   max-height: 10em;
 }
 
+.siteHistoryEntry {
+  box-sizing: border-box;
+}
+
 #siteHostContainer {
   color: #485158;
   box-sizing: border-box;
