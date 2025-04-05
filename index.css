@@ -154,10 +154,12 @@ p {
 #siteHistorySection {
   box-sizing: border-box;
   max-height: 10em;
+  max-width: 100%;
 }
 
 .siteHistoryEntry {
   box-sizing: border-box;
+  width: 100%;
 }
 
 .siteHistoryEntry time {
