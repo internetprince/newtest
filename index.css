@@ -153,6 +153,7 @@ p {
 
 #siteHistorySection {
   box-sizing: border-box;
+  max-height: 10em;
 }
 
 #siteHostContainer {
