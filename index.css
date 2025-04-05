@@ -164,6 +164,8 @@ p {
 
 .siteHistoryEntry time {
   font-size: xx-small;
+  margin-top: 0;
+  margin-left: 0;
 }
 
 .siteHistoryEntry p {
