@@ -151,6 +151,10 @@ p {
   position: relative;
 }
 
+#siteHistorySection {
+  box-sizing: border-box;
+}
+
 #siteHostContainer {
   color: #485158;
   box-sizing: border-box;
