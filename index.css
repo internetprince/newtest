@@ -160,6 +160,10 @@ p {
   box-sizing: border-box;
 }
 
+.siteHistoryEntry time {
+  font-size: xx-small;
+}
+
 #siteHostContainer {
   color: #485158;
   box-sizing: border-box;
