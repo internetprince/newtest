@@ -30,6 +30,10 @@
   
   /* positioning */
   
+  #siteBanner {
+    margin-top: 10px;
+  }
+  
   #personalContainer {
     margin-left: 25px;
   }
