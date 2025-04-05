@@ -117,16 +117,6 @@ h2 {
   top: -23px;
 }
 
-.testBorderTwo {
-  box-sizing: border-box;
-  background-image: url("https://file.garden/Z9NesCn881IguicE/testborder3.png");
-  background-size: contain;
-  background-repeat: repeat-x;
-  width: 100%;
-  height: 30px;
-  position: absolute;
-  top: -25px;
-}
 
 .containButtonStyle { 
   box-sizing: border-box;
