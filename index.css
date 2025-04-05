@@ -7,8 +7,8 @@
     "history history .";
     grid-template-rows: min-content min-content min-content min-content;
     grid-template-columns: 1fr 2fr max-content;
-    column-gap: 25px;
-    row-gap: 25px;
+    column-gap: 0px;
+    row-gap: 0px;
   }
 
 }
@@ -24,8 +24,8 @@
     "nav history .";
     grid-template-rows: min-content min-content min-content min-content;
     grid-template-columns: max-content 1fr 1fr;
-    column-gap: 25px;
-    row-gap: 25px;
+    column-gap: 0px;
+    row-gap: 0px;
   }
   
   /* positioning */
@@ -43,11 +43,17 @@
   }
   
   #welcomeContainer {
+    margin-left: 25px;
     margin-right: 25px;
   }
   
   #siteHostContainer {
+    margin-left: 25px;
     margin-right: 25px;
+  }
+  
+  #siteHistoryContainer {
+    margin-left: 25px;
   }
 
 }
