@@ -167,6 +167,7 @@ p {
   font-size: xx-small;
   margin-top: 0;
   margin-left: 0;
+  font-family: "Ava", monospace;
 }
 
 .siteHistoryEntry p {
