@@ -60,6 +60,10 @@ p {
   font-family: "F1.8", sans-serif;
 }
 
+h2 {
+  overflow-wrap: anywhere;
+}
+
 .contentFormat { 
   box-sizing: border-box;
   display: flow-root;
