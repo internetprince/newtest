@@ -42,11 +42,13 @@ p {
 #interestContainer {
   box-sizing: border-box;
   grid-area: interests;
+  position: relative;
 }
 
 #bioContainer {
   box-sizing: border-box;
   grid-area: bio;
+  position: relative;
 }
 
 
