@@ -248,6 +248,11 @@ h2 {
   position: relative;
 }
 
+#graphicContainer {
+  box-sizing: border-box;
+  position: absolute;
+}
+
 
 #githubImage {
   box-sizing: border-box;
