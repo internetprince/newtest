@@ -44,16 +44,16 @@ p {
   grid-area: interests;
 }
 
+#bioContainer {
+  box-sizing: border-box;
+  grid-area: bio;
+}
+
 
 /* MISC */
 
 .stampStyle {
 }
-
-#bio {
-  margin: 0;
-}
-
 
 /* main */ 
 
