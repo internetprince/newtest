@@ -21,7 +21,7 @@
   #personalContainer {
     margin-top: 20px;
     margin-left: 25px;
-    max-width: 30%;
+    max-width: calc(30% - 25px);
     float: left;
   }
   
@@ -34,7 +34,7 @@
     margin-top: 20px;
     margin-left: 25px;
     margin-right: 25px;
-    max-width: 70%;
+    max-width: calc(70% - 50px);
     float: right;
   }
   
