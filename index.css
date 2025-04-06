@@ -20,7 +20,7 @@
   
   #personalContainer {
     margin-top: 10px;
-    margin-left: 16px;
+    margin-left: 14px;
     max-width: calc(40% - 16px);
     width: 100%;
     max-height: 8rem;
@@ -29,19 +29,19 @@
   
   #navigationContainer {
     margin-top: 10px;
-    margin-left: 16px;
+    margin-left: 14px;
     clear: left;
     float: left;
-    max-width: calc(40% - 16px);
+    max-width: calc(40% - 14px);
     width: 100%;
     max-height: 6rem;
   }
   
   #welcomeContainer {
     margin-top: 10px;
-    margin-left: 16px;
-    margin-right: 16px;
-    max-width: calc(60% - 32px);
+    margin-left: 14px;
+    margin-right: 14px;
+    max-width: calc(60% - 28px);
     width: 100%;
     max-height: 20rem;
     float: right;
@@ -53,16 +53,16 @@
   
   #siteHostContainer {
     margin-top: 10px;
-    margin-left: 16px;
+    margin-left: 14px;
     clear: both;
   }
   
   #siteHistoryContainer {
     margin-top: 10px;
-    margin-right: 16px;
+    margin-right: 14px;
     clear: right;
     float: right;
-    max-width: calc(50% - 16px);
+    max-width: calc(50% - 14px);
     width: 100%;
   }
 
@@ -225,7 +225,7 @@ h2 {
   background-size: contain;
   background-repeat: repeat-x;
   width: 100%;
-  height: 16px;
+  height: 14px;
   position: absolute;
-  top: -13px;
+  top: -12px;
 }
