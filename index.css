@@ -71,14 +71,12 @@ p {
   height: 10vh;
   max-width: 100vw;
   font-family: "Ava", serif;
-  grid-area: banner;
   text-align: center;
 }
 
 #personalContainer { 
   color: #485158;
   box-sizing: border-box;
-  grid-area: personal;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -99,7 +97,6 @@ p {
 #navigationContainer { 
   color: #485158;
   box-sizing: border-box;
-  grid-area: nav;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -115,7 +112,6 @@ p {
   
 #welcomeContainer { 
   color: #485158;
-  grid-area: welcome;
   display: flex;
   box-sizing: border-box;
   flex-direction: column;
@@ -131,7 +127,6 @@ p {
 
 #siteHistoryContainer {
   box-sizing: border-box;
-  grid-area: history;
   position: relative;
 }
 
@@ -161,7 +156,6 @@ p {
 #siteHostContainer {
   color: #485158;
   box-sizing: border-box;
-  grid-area: host;
   display: flex;
   flex-direction: column;
   align-items: center;
