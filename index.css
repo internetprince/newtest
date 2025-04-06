@@ -117,7 +117,7 @@
     margin-right: 14px;
     max-width: calc(100% - 28px);
     width: 100%;
-    clear: both;
+    clear: right;
   }
   
   #siteHistoryContainer {
@@ -132,6 +132,7 @@
   #graphicContainer {
     top: calc(10vh + 8rem + 6rem + 30px);
     left: 14px;
+    background-color: white;
   }
 
 }
