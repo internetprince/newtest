@@ -120,6 +120,7 @@ p {
   align-items: center;
   text-align: center;
   position: relative;
+  float: right;
 }
 
 #siteInfoContainer {
