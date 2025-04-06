@@ -134,7 +134,7 @@
     left: 14px;
     background-color: white;
     width: 20px;
-    height: 20px;
+    height: calc(20rem - 8rem - 6rem - 20px);
   }
 
 }
