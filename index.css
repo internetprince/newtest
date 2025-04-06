@@ -65,7 +65,7 @@ p {
 }
 
 h2 {
-  overflow-wrap: anywhere;
+  overflow-wrap: break-word;
 }
 
 .contentFormat { 
