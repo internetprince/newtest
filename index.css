@@ -128,7 +128,7 @@
   }
   
   #graphicContainer {
-    top: calc(10vh + 8rem + 6rem);
+    top: calc(10vh + 8rem + 6rem + 30px);
   }
 
 }
