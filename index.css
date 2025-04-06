@@ -112,6 +112,9 @@
   #siteHostContainer {
     margin-top: 10px;
     margin-left: 14px;
+    margin-right: 14px;
+    max-width: calc(100% - 28px);
+    width: 100%;
     clear: both;
   }
   
