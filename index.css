@@ -285,3 +285,13 @@ h2 {
   position: absolute;
   top: -12px;
 }
+
+.columnDividerOne {
+  box-sizing: border-box;
+  background-size: contain;
+  background-repeat: repeat-y;
+  height: calc(100% - 4px);
+  width: 14px;
+  position: absolute;
+  left: -12px;
+}
