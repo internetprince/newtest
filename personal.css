@@ -2,7 +2,7 @@
   .contentGrid {
     grid-template-areas:
     ".";
-    grid-template-rows: 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr;
     column-gap: 0px;
     row-gap: 0px;
@@ -13,8 +13,9 @@
 @media (orientation: portrait) {
   .contentGrid {
     grid-template-areas:
-    "."
-    grid-template-rows: 1fr;
+    "interests"
+    "bio";
+    grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr;
     column-gap: 0px;
     row-gap: 0px;
