@@ -133,8 +133,8 @@
     top: calc(10vh + 8rem + 6rem + 30px);
     left: 14px;
     background-color: white;
-    width: calc(40% - 14px);
-    height: calc(20rem - 8rem - 6rem - 20px);
+    max-width: calc(40% - 14px);
+    max-height: calc(20rem - 8rem - 6rem - 30px);
   }
 
 }
