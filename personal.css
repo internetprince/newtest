@@ -53,6 +53,12 @@ p {
   position: relative;
 }
 
+#picContainer {
+  box-sizing: border-box;
+  grid-area: pic;
+  position: relative;
+}
+
 
 /* MISC */
 
