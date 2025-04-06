@@ -259,6 +259,8 @@ h2 {
 #graphicContainer {
   box-sizing: border-box;
   position: absolute;
+  background-size: cover;
+  background-color: yellow;
 }
 
 
