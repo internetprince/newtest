@@ -20,8 +20,8 @@
   
   #personalContainer {
     margin-top: 10px;
-    margin-left: 25px;
-    max-width: calc(40% - 25px);
+    margin-left: 16px;
+    max-width: calc(40% - 16px);
     float: left;
   }
   
@@ -32,9 +32,9 @@
   
   #welcomeContainer {
     margin-top: 10px;
-    margin-left: 25px;
-    margin-right: 25px;
-    max-width: calc(60% - 50px);
+    margin-left: 16px;
+    margin-right: 16px;
+    max-width: calc(60% - 32px);
     float: right;
   }
   
