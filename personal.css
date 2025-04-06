@@ -39,6 +39,11 @@ p {
   position: static;
 }
 
+#interestContainer {
+  box-sizing: border-box;
+  grid-area: interests;
+}
+
 
 /* MISC */
 
