@@ -7,19 +7,21 @@
   
   #siteBanner {
     margin-top: 10px;
-    max-width: 100vw;
+    max-width: calc(30% - 16px);
     width: 100%;
     max-height: 10vh;
     height: 100%;
+    float: right;
   }
   
   #personalContainer {
     margin-top: 10px;
     margin-left: 14px;
-    max-width: calc(40% - 16px);
+    max-width: calc(70% - 16px);
     width: 100%;
     max-height: 8rem;
-    float: left;
+    clear: right;
+    float: right;
   }
   
   #navigationContainer {
@@ -40,7 +42,7 @@
     width: 100%;
     max-height: 20rem;
     height: 100%;
-    float: right;
+    float: left;
   }
   
   #siteHostContainer {
