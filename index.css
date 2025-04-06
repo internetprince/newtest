@@ -73,6 +73,7 @@ p {
   font-family: "Ava", serif;
   grid-area: banner;
   text-align: center;
+  order: 0;
 }
 
 #personalContainer { 
@@ -84,6 +85,7 @@ p {
   align-items: center;
   text-align: center;
   position: relative;
+  order: 1;
 }
 
 #personalTitle {
@@ -105,6 +107,7 @@ p {
   align-items: center;
   text-align: center;
   position: relative;
+  order: 3;
 }
 
 #navigationContainer details {
@@ -122,6 +125,7 @@ p {
   align-items: center;
   text-align: center;
   position: relative;
+  order: 2;
 }
 
 #siteInfoContainer {
@@ -133,6 +137,7 @@ p {
   box-sizing: border-box;
   grid-area: history;
   position: relative;
+  order: 5;
 }
 
 #siteHistorySection {
@@ -167,6 +172,7 @@ p {
   align-items: center;
   text-align: center;
   position: relative;
+  order: 4;
 }
 
 
