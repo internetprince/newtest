@@ -17,7 +17,7 @@
   #personalContainer {
     margin-top: 10px;
     margin-left: 14px;
-    max-width: calc(70% - 16px);
+    max-width: calc(70% - 14px);
     width: 100%;
     max-height: 8rem;
     clear: right;
@@ -36,9 +36,9 @@
   
   #welcomeContainer {
     margin-top: 10px;
-    margin-left: 14px;
+    margin-left: 10px;
     margin-right: 14px;
-    max-width: calc(60% - 28px);
+    max-width: calc(60% - 24px);
     width: 100%;
     max-height: 20rem;
     height: 100%;
@@ -47,7 +47,7 @@
   
   #siteHostContainer {
     margin-top: 10px;
-    margin-left: 14px;
+    margin-left: 10px;
     clear: both;
   }
   
@@ -128,7 +128,7 @@
   }
   
   #graphicContainer {
-    
+    top: calc(10vh + 8rem + 6rem);
   }
 
 }
