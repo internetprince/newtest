@@ -134,7 +134,9 @@
     left: 14px;
     background-color: white;
     max-width: calc(40% - 14px);
+    width: 100%;
     max-height: calc(20rem - 14rem - 30px);
+    height: 100%;
   }
 
 }
