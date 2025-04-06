@@ -31,7 +31,7 @@
     clear: left;
     float: left;
     max-width: calc(40% - 16px);
-    width: min-content;
+    min-width: 8rem;
   }
   
   #welcomeContainer {
