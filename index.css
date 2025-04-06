@@ -56,10 +56,12 @@
 
 p {
   font-family: "F1.8", sans-serif;
+  font-size: medium;
 }
 
 h2 {
   overflow-wrap: anywhere;
+  font-size: large;
 }
 
 .contentFormat { 
