@@ -130,7 +130,7 @@
   }
   
   #graphicContainer {
-    top: calc(10vh + 8rem + 6rem + 30px);
+    top: calc(12vh + 8rem + 6rem + 30px);
     left: 14px;
     background-color: white;
     max-width: calc(40% - 14px);
