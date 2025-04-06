@@ -82,7 +82,7 @@
   #personalContainer {
     margin-top: 10px;
     margin-left: 14px;
-    max-width: calc(40% - 16px);
+    max-width: calc(40% - 14px);
     width: 100%;
     max-height: 8rem;
     float: left;
