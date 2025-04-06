@@ -1,5 +1,5 @@
 @media (orientation: landscape) {
-  .contentFlex {
+  .contentFormat {
     
   }
 
@@ -8,7 +8,7 @@
 
 
 @media (orientation: portrait) {
-  .contentFlex {
+  .contentFormat {
     
   }
   
@@ -53,9 +53,9 @@ p {
   font-family: "F1.8", sans-serif;
 }
 
-.contentFlex { 
+.contentFormat { 
   box-sizing: border-box;
-  display: flex;
+  display: static;
   width: 100%;
   max-width: 100vw;
   background-color: transparent;
@@ -73,7 +73,6 @@ p {
   font-family: "Ava", serif;
   grid-area: banner;
   text-align: center;
-  order: 0;
 }
 
 #personalContainer { 
@@ -85,7 +84,6 @@ p {
   align-items: center;
   text-align: center;
   position: relative;
-  order: 1;
 }
 
 #personalTitle {
@@ -107,7 +105,6 @@ p {
   align-items: center;
   text-align: center;
   position: relative;
-  order: 3;
 }
 
 #navigationContainer details {
@@ -125,7 +122,6 @@ p {
   align-items: center;
   text-align: center;
   position: relative;
-  order: 2;
 }
 
 #siteInfoContainer {
@@ -137,7 +133,6 @@ p {
   box-sizing: border-box;
   grid-area: history;
   position: relative;
-  order: 5;
 }
 
 #siteHistorySection {
@@ -172,7 +167,6 @@ p {
   align-items: center;
   text-align: center;
   position: relative;
-  order: 4;
 }
 
 
