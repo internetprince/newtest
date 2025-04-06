@@ -21,6 +21,7 @@
   #personalContainer {
     margin-top: 20px;
     margin-left: 25px;
+    max-width: 30%;
   }
   
   #navigationContainer {
@@ -32,6 +33,7 @@
     margin-top: 20px;
     margin-left: 25px;
     margin-right: 25px;
+    max-width: 70%;
   }
   
   #siteHostContainer {
