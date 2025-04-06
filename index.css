@@ -22,6 +22,7 @@
     margin-top: 10px;
     margin-left: 16px;
     max-width: calc(40% - 16px);
+    max-height: 7rem;
     float: left;
   }
   
@@ -31,6 +32,7 @@
     clear: left;
     float: left;
     max-width: calc(40% - 16px);
+    max-height: 6rem;
   }
   
   #welcomeContainer {
@@ -38,6 +40,8 @@
     margin-left: 16px;
     margin-right: 16px;
     max-width: calc(60% - 32px);
+    max-height: 20rem;
+    overflow: auto;
     float: right;
   }
   
