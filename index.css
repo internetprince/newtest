@@ -269,6 +269,12 @@ h3 {
   left: -12px;
 }
 
+.rowDividerOne {
+  box-sizing: border-box;
+  background-image: url("https://file.garden/Z9NesCn881IguicE/frametest14.png");
+  background-repeat: repeat-x;
+}
+
 :nth-child(4n of .columnDividerOne)
 {
 }
