@@ -151,6 +151,11 @@ p {
 
 h2 {
   overflow-wrap: break-word;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
 }
 
 .contentFormat { 
