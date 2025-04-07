@@ -4,61 +4,6 @@
   }
     
   /* positioning */
-  
-  #siteBanner {
-    margin-top: 10px;
-    max-width: calc(30% - 16px);
-    width: 100%;
-    max-height: 10vh;
-    height: 100%;
-    float: right;
-  }
-  
-  #personalContainer {
-    margin-top: 10px;
-    margin-left: 14px;
-    max-width: calc(70% - 14px);
-    width: 100%;
-    max-height: 8rem;
-    clear: right;
-    float: right;
-  }
-  
-  #navigationContainer {
-    margin-top: 10px;
-    margin-left: 14px;
-    clear: left;
-    float: left;
-    max-width: calc(40% - 14px);
-    width: 100%;
-    max-height: 6rem;
-  }
-  
-  #welcomeContainer {
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 14px;
-    max-width: calc(60% - 24px);
-    width: 100%;
-    max-height: 23rem;
-    height: 100%;
-    float: left;
-  }
-  
-  #siteHostContainer {
-    margin-top: 10px;
-    margin-left: 10px;
-    clear: right;
-  }
-  
-  #siteHistoryContainer {
-    margin-top: 10px;
-    margin-right: 14px;
-    clear: right;
-    float: right;
-    max-width: calc(50% - 14px);
-    width: 100%;
-  }
 
 }
  
