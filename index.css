@@ -267,3 +267,7 @@ h3 {
   position: absolute;
   left: -12px;
 }
+
+:nth-child(4n of .columnDividerOne)
+{
+}
