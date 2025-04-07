@@ -51,9 +51,9 @@
     margin-left: 14px;
     margin-right: 14px;
     max-width: calc(60% - 28px);
-    width: 100%;
+    width: fit-content;
     max-height: 20rem;
-    height: 100%;
+    height: fit-content;
     float: right;
   }
   
@@ -62,7 +62,7 @@
     margin-left: 14px;
     margin-right: 14px;
     max-width: calc(100% - 28px);
-    width: 100%;
+    width: fit-content;
     clear: right;
     float: right;
   }
@@ -80,9 +80,9 @@
     top: calc(12vh + 10px + 8rem + 10px + 6rem + 10px);
     left: 14px;
     max-width: calc(40% - 14px);
-    width: 100%;
+    width: fit-content;
     max-height: calc(20rem - 14rem - 35px);
-    height: 100%;
+    height: fit-content;
   }
 
 }
