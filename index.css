@@ -22,6 +22,7 @@
     min-width: 100vw;
     max-height: 12vh;
     min-height: 12vh;
+    float: left;
   }
   
   #personalContainer {
