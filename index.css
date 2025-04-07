@@ -118,6 +118,7 @@
     max-width: calc(100% - 28px);
     width: 100%;
     clear: right;
+    float: right;
   }
   
   #siteHistoryContainer {
@@ -134,7 +135,7 @@
     left: 14px;
     max-width: calc(40% - 14px);
     width: 100%;
-    max-height: calc(20rem - 14rem - 30px);
+    max-height: calc(20rem - 14rem - 40px);
     height: 100%;
   }
 
