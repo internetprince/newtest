@@ -48,7 +48,7 @@
   #siteHostContainer {
     margin-top: 10px;
     margin-left: 10px;
-    clear: both;
+    clear: right;
   }
   
   #siteHistoryContainer {
