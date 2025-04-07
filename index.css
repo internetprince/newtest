@@ -272,3 +272,13 @@ h3 {
 :nth-child(4n of .columnDividerOne)
 {
 }
+
+/* final */
+
+.cornerFrame {
+  box-sizing: border-box;
+  background-size: contain;
+  height: 14px;
+  width: 14px;
+  position: absolute;
+}
