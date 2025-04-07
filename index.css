@@ -82,8 +82,8 @@
     left: 14px;
     max-width: calc(40% - 14px);
     min-width: calc(40% - 14px);
-    max-height: calc(20rem - 14rem - 35px);
-    min-height: calc(20rem - 14rem - 35px);
+    max-height: calc(20rem - 14rem - 20px);
+    min-height: calc(20rem - 14rem - 20px);
   }
 
 }
