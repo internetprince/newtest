@@ -131,7 +131,7 @@
   }
   
   #graphicContainer {
-    top: calc(12vh + 8rem + 6rem + 15px);
+    top: calc(12vh + 10px + 8rem + 6rem + 15px);
     left: 14px;
     max-width: calc(40% - 14px);
     width: 100%;
