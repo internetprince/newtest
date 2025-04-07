@@ -19,18 +19,18 @@
   #siteBanner {
     margin-top: 10px;
     max-width: 100vw;
-    width: 100vw;
+    min-width: 100vw;
     max-height: 12vh;
-    height: 12vj;
+    min-height: 12vj;
   }
   
   #personalContainer {
     margin-top: 10px;
     margin-left: 14px;
     max-width: calc(40% - 14px);
-    width: calc(40% - 14px);
+    min-width: calc(40% - 14px);
     max-height: 8rem;
-    height: 8rem;
+    min-height: 8rem;
     float: left;
   }
   
@@ -40,9 +40,9 @@
     clear: left;
     float: left;
     max-width: calc(40% - 14px);
-    width: calc(40% - 14px);
+    min-width: calc(40% - 14px);
     max-height: 6rem;
-    height: 6rem;
+    min-height: 6rem;
     overflow-y: scroll;
   }
   
@@ -51,9 +51,9 @@
     margin-left: 14px;
     margin-right: 14px;
     max-width: calc(60% - 28px);
-    width: calc(60% - 28px);
+    min-width: calc(60% - 28px);
     max-height: 20rem;
-    height: 20rem;
+    min-height: 20rem;
     float: right;
   }
   
@@ -62,7 +62,7 @@
     margin-left: 14px;
     margin-right: 14px;
     max-width: calc(100% - 28px);
-    width: calc(100% - 28px);
+    min-width: calc(100% - 28px);
     clear: right;
     float: right;
   }
@@ -73,16 +73,16 @@
     clear: right;
     float: right;
     max-width: calc(50% - 14px);
-    width: 100%;
+    min-width: calc(50% - 14px);
   }
   
   #graphicContainer {
     top: calc(12vh + 10px + 8rem + 10px + 6rem + 10px);
     left: 14px;
     max-width: calc(40% - 14px);
-    width: calc(40% - 14px);
+    min-width: calc(40% - 14px);
     max-height: calc(20rem - 14rem - 35px);
-    height: calc(20rem - 14rem - 35px);
+    min-height: calc(20rem - 14rem - 35px);
   }
 
 }
