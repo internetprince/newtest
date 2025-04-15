@@ -1,23 +1,11 @@
 @media (orientation: landscape) {
-  .contentGrid {
-    grid-template-areas:
-    ".";
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr;
-    column-gap: 0px;
-    row-gap: 0px;
+  .contentFlex {
   }
 
 }
 
 @media (orientation: portrait) {
-  .contentGrid {
-    grid-template-areas:
-    "."
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr;
-    column-gap: 0px;
-    row-gap: 0px;
+  .contentFlex {
   }
   
   /* positioning */
@@ -30,7 +18,7 @@ p {
   font-family: "F1.8", sans-serif;
 }
 
-.contentGrid { 
+.contentFlex { 
   box-sizing: border-box;
   display: flex;
   width: 100%;
