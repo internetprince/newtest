@@ -43,6 +43,12 @@ p {
   
 }
 
+.entryContainer {
+  box-sizing: border-box;
+  max-height: 10rem;
+  overflow-y: scroll;
+}
+
 
 /* MISC */
 
