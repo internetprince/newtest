@@ -34,12 +34,12 @@ p {
 .entryContainer {
   box-sizing: border-box;
   max-height: 10rem;
-  overflow: auto;
 }
 
 .entryFrame {
   box-sizing: border-box;
-  max-height: 10rem;
+  height: 100%;
+  width: 100%;
   overflow: auto;
 }
 
